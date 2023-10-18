@@ -13,7 +13,7 @@ public class openURL {
 		driver.manage().window().maximize();
 		String title = driver.getTitle();
 		System.out.println(title);
-		System.out.println("Test case Pass");
+		System.out.println("Test case Passed");
 		driver.quit();
 
 	}
